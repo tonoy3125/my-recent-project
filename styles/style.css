@@ -143,29 +143,34 @@ ul li a:hover {
     cursor: pointer;
     transition: .4s ease;
 }
-.content .cn a{
+
+.content .cn a {
     text-decoration: none;
     color: #000;
     transition: .3s ease;
 }
-.cn:hover{
+
+.cn:hover {
     background-color: #fff;
 }
-.content span{
+
+.content span {
     color: #ff7200;
     font-size: 60px;
 }
-.form{
+
+.form {
     width: 250px;
     height: 380px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
     position: absolute;
     top: -20px;
     left: 1030px;
     border-radius: 10px;
     padding: 25px;
 }
-.form h2{
+
+.form h2 {
     width: 220px;
     font-family: sans-serif;
     text-align: center;
@@ -176,7 +181,8 @@ ul li a:hover {
     margin: 2px;
     padding: 8px;
 }
-.form input{
+
+.form input {
     width: 240px;
     height: 35px;
     background: transparent;
@@ -190,14 +196,17 @@ ul li a:hover {
     margin-top: 30px;
     font-family: sans-serif;
 }
-.form input:focus{
+
+.form input:focus {
     outline: none;
 }
-::placeholder{
+
+::placeholder {
     color: #fff;
     font-family: Arial;
 }
-.btnn{
+
+.btnn {
     width: 240px;
     height: 40px;
     background: #ff7200;
@@ -209,12 +218,49 @@ ul li a:hover {
     color: #fff;
     transition: 0.4s ease;
 }
-.btnn:hover{
+
+.btnn:hover {
     background: #fff;
     color: #ff7200;
 }
-.btnn a{
+
+.btnn a {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon ion-icon {
+    color: #fff;
+    font-size: 22px;
+    padding-left: 14px;
+    padding-top: 7px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover {
+    color: #ff7200;
 }
